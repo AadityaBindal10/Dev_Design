@@ -1,0 +1,79 @@
+/* navigation */
+#navbar {
+    flex-direction: column;
+    /* this is to prevent navbar from overflowing */
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 2px 6px;
+    padding-bottom: 8px;
+}
+
+/* home section */
+#home {
+    height: 592px;
+    padding: 3px 68px;
+}
+
+#home::before {
+    height: 596px;
+
+}
+
+#home p {
+    font-size: 13px;
+}
+
+
+#services {
+    flex-direction: column;
+    /* padding: 30px auto; */
+}
+
+#services .box {
+    padding: 1px 15px;
+    margin: 15px;
+}
+
+#services .box img {
+    width: 140px;
+    height: 110px;
+    margin: 1px auto;
+}
+
+/* #services .box img {
+    width: auto;
+} */
+
+/* client section */
+#clients {
+    flex-wrap: wrap;
+    height: 550px;
+    overflow: hidden;
+    /* this will hide the logos when the overflow from the screen */
+}
+
+#client-section::before {
+    height: 90%;
+    /* margin-bottom: 1000px; */
+}
+
+.client-item {
+    padding: 30px;
+}
+
+
+/* utility classes */
+.h-primary-client {
+    font-size: 40px;
+}
+
+.btn {
+    font-size: 25px;
+    padding: 3px 8px;
+}
+
+.contact-us {
+    margin-top: 150px;
+}
